@@ -1,1 +1,7 @@
-This is a test.
+Question 1: What is an advantage to using a text editor?
+
+Using a text editor can limit distractions of programming and give a more simple template to work with. Using a text editor also allows you to run programs from the command line or powershell.
+
+Question 2: Is there an advantage of using a relative vs an absolute URL?
+
+a relative URL is a shorter version of an absolute URL. An absolute URL gives the path to the required file in the website.
