@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>Alpine Physical Therapy</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Alpine Physical Therapy">
+        <meta name="author" content="Eric Frazer">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <style>
+            body {
+                background-color: rgb(255, 255, 255);
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 14px;
+            }
+            table {
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+
+    <body>
+        <img src="images/alpinelogo.png" alt="Alpine Physical Therapy Logo" width="200" height="200" title="Alpine Physical Therapy">
+        <br/>
+        <h1><u>North Clinic:</u></h1>
+        <adress>
+            Alpine Physical Therapy North<br />
+            2965 Stockyard Road<br />
+            Missoula, MT 59808<br />
+            In the North Reserve Business Center<br />
+        </adress>
+        <!--Put the hours table here-->
+        <h1><u>Schedule an appointment!</u></h1>
+        <form method="post" action="index.html">
+            Name:<br />
+            <input type="text" name="name" value="Enter your name here" size="50" maxlength="50" /><br />
+            Phone Number:<br />
+            <input type="text" name="phone" value="Enter your phone number here" size="50" maxlength="50" /><br />
+            Email Address:<br />
+            <input type="text" name="email" value="Enter your email address here" size="50" maxlength="50" /><br />
+            <h2>Are you a new, returning, or current patient?</h2>
+            <input type="checkbox" name="new" value="new">New patient<br />
+            <input type="checkbox" name="returning" value="returning">Returning patient<br />
+            <input type="checkbox" name="current" value="current">Current patient<br />
+            <h2>What is your preferred appointment time?</h2>
+            <input type="checkbox" name="morning" value="morning">Morning<br />
+            <input type="checkbox" name="afternoon" value="afternoon">Afternoon<br />
+            <input type="checkbox" name="evening" value="evening">Evening<br />
+            <h2>What are you coming in for?</h2>
+            <textarea name="reason" rows="10" cols="30"></textarea>enter here why you seek help<br />
+            Is best contact by phone or email?<br />
+            <input type="radio" name="contact" value="phone">Phone<br />
+            <input type="radio" name="contact" value="email">Email<br />
+            <input type="submit" name ="submit" value="Submit" />
+            <h2>Thank you, we will contact you shortly!</h2>
+        </form>
+
+
+
+    </body>
+</html>
