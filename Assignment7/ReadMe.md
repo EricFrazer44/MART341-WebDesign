@@ -1,0 +1,1 @@
+This is my submission for assignment 7. I used Alpine Physical Therapy for this webpage as I know someone who works there
