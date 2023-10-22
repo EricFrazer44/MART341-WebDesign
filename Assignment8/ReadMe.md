@@ -1,1 +1,1 @@
-This website is going to be an alien conspiracy website with the crazy colors and videos of catpured aliens.
+This website is going to be an alien conspiracy website with the crazy colors and videos of catpured aliens. It is meant to be comedic and allow examples of the new conepts covered in this weeks module.
