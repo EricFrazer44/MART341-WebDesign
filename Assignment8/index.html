@@ -24,14 +24,43 @@
                 font-size: 30px;
                 font-weight: bold;
             }
-
+            .incident-img {
+                background-image: url('/images/alien-306013_1280.png');
+                background-size: cover;
+                background-position: center;
+                padding: 50px;
+                margin-bottom: 20px;
+                text-align: center;
+                color: white;
+                text-shadow: 2px 2px 4px black;
+            }
         </style>
     </head>
 
     <body>
-        <div id="incident-img">
+        <!--This is the title and image with the title-->
+        <div id="incident-img" class="title">
             <h1><div title="It is a massive cover-up!">The Roswell Incident &#38; it's Implications</div></h1>
-            <img src=""
         </div>
+        <!--This is the newspaper image of the event-->
+        <div id="paper" class="container">
+            <img src="/images/roswellpaper.jpg" alt="Roswell Paper" width="640" height="456">
+        </div>
+        <!--Location using google maps iframe-->
+        <div id="location" class="container">
+            <h2>Where is Roswell?</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d135919.41208778834!2d-104.61321605376376!3d33.370055597487784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e2651365aced55%3A0xe41b0be474cfd77e!2sRoswell%2C%20NM!5e1!3m2!1sen!2sus!4v1697990605836!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <!--Brief Explanation of the incident-->
+        <div id="explanation" class="container">
+            <h2>What Happened?</h2>
+            <p>On July 8th, 1947, a rancher named Mac Brazel discovered some strange debris in his sheep pasture. The debris was described as "foil-like" and "metallic". He brought the debris to the local sheriff, who then brought it to the Roswell Army Air Field. The Air Force then released a statement saying that the debris was from a crashed weather balloon. However, many people believe that the debris was actually from a crashed UFO.</p>
+        </div>
+        <!--Theories about the incident using a video from youtube-->
+        <div id="theories" class="container">
+            <h2>The evidence is out there!</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/84DKZlgZruU?si=zvt_hmmPNHxATkQW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        
     </body>
 </html>
