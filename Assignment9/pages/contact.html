@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="How to change your car's oil">
+        <meta name="author" content="Eric Frazer">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us!</title>
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                background-image: url('../images/webb.png');   
+                background-repeat: repeat;
+            }
+            .container {
+                width: 80%;
+                margin: auto;
+                overflow: hidden;
+                border: 1px black solid;
+                background-color: rgb(255, 226, 172);
+                text-align: center;
+                padding: 10px;
+            }
+            div {
+                padding: 10px;
+                text-align: center;
+            }
+            .containerNav {
+                width: 100%;
+                margin: auto;
+                overflow: hidden;
+                border: 1px black solid;
+                background-color: rgb(255, 226, 172);
+                padding: 10px;
+            }
+            h1, h2 {
+                text-align: center;
+                position: relative;
+                z-index: 1;
+                color: rgb(0, 0, 0);
+                text-shadow: 1px 1px 5px rgb(255, 255, 255);
+            }
+            h1:before, h2:before {
+                content: "";
+                position: absolute;
+                top: -5px;
+                left: -5px;
+                right: -5px;
+                bottom: -5px;
+                z-index: -1;
+                background-color: white;
+            }
+            h1 {
+                font-weight: bold;
+            }
+            ul {
+                text-align: left;
+            }
+
+            li {
+                text-align: left;
+            }
+            form {
+                text-align: center;
+            }
+        </style>
+    </head>
+
+    <body>
+        <containerNav>
+            <nav>
+                <div class="container">
+                    <a href="/index.html">Home</a> &vert;
+                    <a href="about.html">About</a> &vert;
+                    <a href="contact.html">Contact</a>
+                </div>
+            </nav>
+        </containerNav>
+        <h2>Contact us with any questions!</h2>
+        <div class = "container">
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+            
+                <label for="phone">Phone number:</label>
+                <input type="text" id="phone" /><br>
+            
+                <label for="email">Email address:</label>
+                <input type="email" id="email" name="email" required><br>
+            
+                <input type="submit" value="Submit">
+              </form>
+        </div>
+    </body>
+</html>
