@@ -9,15 +9,15 @@
         <style>
             body {
                 font-family: Arial, Helvetica, sans-serif;
-                background-image: url('/images/webb.png');   
-                background-size: cover;
+                background-image: url('images/webb.png');   
+                background-repeat: repeat;
             }
             .container {
                 width: 80%;
                 margin: auto;
                 overflow: hidden;
                 border: 1px black solid;
-                background-color: rgb(255, 255, 255);
+                background-color: rgb(255, 226, 172);
                 text-align: center;
                 padding: 10px;
             }
@@ -30,11 +30,25 @@
                 margin: auto;
                 overflow: hidden;
                 border: 1px black solid;
-                background-color: rgb(255, 255, 255);
+                background-color: rgb(255, 226, 172);
                 padding: 10px;
             }
             h1, h2 {
                 text-align: center;
+                position: relative;
+                z-index: 1;
+                color: rgb(0, 0, 0);
+                text-shadow: 1px 1px 5px rgb(255, 255, 255);
+            }
+            h1:before, h2:before {
+                content: "";
+                position: absolute;
+                top: -5px;
+                left: -5px;
+                right: -5px;
+                bottom: -5px;
+                z-index: -1;
+                background-color: white;
             }
             h1 {
                 font-weight: bold;
@@ -173,7 +187,7 @@
             <h3>If you need more information or want to see the process, watch these short videos</h3>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/O1hF25Cowv8?si=aPOW0QxF4AEDCJXP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/8t-xOJY-l3U?si=WTU7JHPPujP9M2xp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
         </div>
+        <h2><a href = "#">Back to Top of Page</a></h2>
     </body>
 </html>
