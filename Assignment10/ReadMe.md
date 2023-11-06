@@ -1,0 +1,1 @@
+This webpage will be a page containing some of my favorite video games currently. This is most definely inspired by the example provided for the assignment because I am also a nerd who likes video games. 
