@@ -1,0 +1,1 @@
+This website is designed as a "work in progress" build on purpose. I have no ideas this week for the webpage design, but I wanted to impliment the new ideas and I decided to make it an outline for some future idea. I showed the new material on the module for this week in this page.
