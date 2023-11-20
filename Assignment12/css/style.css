@@ -1,0 +1,75 @@
+.title-cont {
+    width: 80%;
+    height: 10vh;
+    border: 5px solid green;
+    background-color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: outset; 
+    padding: 1em;
+    margin:1em;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.overflow-scroll {
+    overflow: scroll;
+}
+
+.nav-bar {
+    margin: auto;
+    width:75px;
+    padding: 0.5em;
+    color: Green;
+    background-color: aliceblue;
+    line-height: 2.1em;
+}
+
+.nav-bar:hover {
+    background-color: green;;
+    color: white;
+}
+.display-inline-block {
+    display: inline-block;
+}
+
+.text-container {
+    width: 25vw; 
+    height: 15vw; 
+    padding: 1em;
+    overflow: auto; 
+    border: 1px dashed green; 
+}
+
+.container-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.bottom-container {
+    position: relative;
+    top: 20px;
+    width: 83%;
+    border: 1px double #000; 
+    padding: 1em;
+}
+
+.hidden-content {
+    display: none;
+    font-style: italic;
+    padding: 1em;
+    background-color: green;
+    color: aliceblue;
+}
+
+.bottom-text {
+    font-size: 1.5em;
+    padding: 1em;
+    text-align: center;
+    color: black;
+    background-color: white;
+}
+
+.bottom-container:hover .hidden-content {
+    display: block;
+}
