@@ -1,0 +1,1 @@
+This page uses the canvas element to add triangles into the corners of the text containers on the pages. I had just previously self-learned the canvas feature and the bootstrap navbar/buttons so this was a nice change. I had just watched the Lord of the Rings movies again and decided that a simple fan page would be good for this assignment.
